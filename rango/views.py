@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from rango.models import Category
 from rango.models import Page
-
+print(Category.objects.all())
 
 def index(request):   
    context_dict = {'boldmessage': "Crunchy, creamy, cookie, candy, cupcake!"}
