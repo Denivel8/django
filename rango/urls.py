@@ -10,3 +10,4 @@ urlpatterns = [
          views.show_category, name='show_category'),
      
 	 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+ 
