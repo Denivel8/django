@@ -1,0 +1,15 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+{% block title_block %}
+
+{% endblock %}
+
+{% block body_block %}
+    {% if user.is_authenticated %}
+    <p>You are successfully logged in</p>
+    {% else %}
+    <p>you are successfully logged out</p>
+    {% endif %}
+{% endblock %}
+
