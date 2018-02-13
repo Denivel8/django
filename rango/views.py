@@ -14,8 +14,8 @@ from rango.forms import PageForm
 from rango.forms import UserForm
 from rango.forms import UserProfileForm
 from datetime import datetime 
-
-
+from django.contrib.auth import authenticate, login
+from django.core.urlresolvers import reverse
 
 
 
